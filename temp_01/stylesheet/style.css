@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Roboto,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+body{
+    background-color: aquamarine;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg,rgba(0,0,0,0.9),rgba(0,0,0,0.7),rgba(0,0,0,0.9)) , url(./../images/pexels-photo-4974914.jpeg) center/cover fixed no-repeat;
+}
+
+
+
+
+/* ******** custom coding of css starts from here ********  */
+
+main{
+    width: 80%;
+    /* height: 100vh; */
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+    
+}
+
+
+
+
+/* right section starts from here  */
+main .right{
+    background-color: black;
+    width: 220px;
+    padding: 30px;
+    text-align: center;
+}
+
+main .right h3{
+    height: 40px;
+    line-height: 40px;
+    background-color: whitesmoke;
+    color: orangered;
+    font-size: 150%;
+    font-weight: 1000;
+    /* padding: 8px auto; */
+    border-radius: 5px;
+    margin-bottom: 13px;
+}
+
+main .right input{
+    color: white;
+    height: 40px;
+    width: 100%;
+    background-color: transparent;
+    /* padding: 0 20px; */
+    border: none;
+    border-bottom: 1px solid red;
+    font-weight: bolder;
+}
+
+main .right input.submit{
+    background: orangered;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 10px;
+}
+
+main .right span{
+    color: orangered;
+    font-size: 1.3rem;
+}
+
+
+main .right .log-social{
+    margin: 10px 0 5px 0;
+    /* background-color: red; */
+}
+
+main .right .fab{
+    font-size: 28px;
+    color: whitesmoke;
+}
+
+main .right .social-media{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* right section ends from here  */
+
+/* main section ends from here  */
